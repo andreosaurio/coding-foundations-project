@@ -1,0 +1,146 @@
+/* Common nav styles */
+
+.header {
+    background-color: black;
+    height: 106px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    overflow: hidden;
+
+}
+
+/* Banner image styles */
+
+.header > .banner-image {
+    display: flex;
+    align-items: center;
+    margin-right: 65px;
+}
+
+.header > .banner-image img {
+    width: 230px;
+    height: 100%;
+}
+
+/* Explore module styles */
+
+.header > .explore-module {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: auto;
+    align-items: center;
+}
+
+.header > .explore-module > .explore {
+    display: flex;
+    justify-content: left;
+}
+
+.header > .explore-module > .explore p {
+    color: #e4d070;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.65rem;
+    font-weight: 900;
+    padding-right: 8px;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: rgba(255, 255, 255, 0.717);
+}
+
+.links-wrapper > .dropdown-sparks {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.links-wrapper > .dropdown-sparks a {
+    color: #acacac;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-right: 12px;
+
+}
+
+.links-wrapper > .dropdown-sparks i {
+    font-size: 1.3rem; 
+    margin-left: 15px; 
+    vertical-align: middle; 
+}
+
+
+
+/* Buttons styles */
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+.buttons > .create-link > .create-btn,
+.buttons > .login-link > .login-btn,
+.buttons > .signup-link > .signup-btn {
+    display: block;
+    background-color: #36383f;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 26px;
+    min-height: 74px;
+    white-space: nowrap;
+    transition: background-color 1s;
+}
+
+.buttons > .create-link > .create-btn i {
+    font-size: 35px;
+    color: #4bce79; 
+    vertical-align: middle;
+}
+
+
+.buttons > .login-link > .login-btn {
+    margin-right: 15px; 
+}
+
+.buttons > .create-link > .create-btn:hover,
+.buttons > .login-link > .login-btn:hover,
+.buttons > .signup-link > .signup-btn:hover {
+    background-color: #585a64;
+}
+
+.buttons > .search-link > .search-btn {
+    background-color: black;
+    font-size: 2.8rem;
+    color: #acacac;
+    border: none;
+    padding: 12px 35px;
+    transition: color 0.5s;
+}
+
+.buttons > .search-link > .search-btn:hover {
+    color: #4bce79;
+}

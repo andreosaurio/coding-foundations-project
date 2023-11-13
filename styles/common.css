@@ -1,0 +1,29 @@
+ /* Common styles*/
+ body {
+   margin: 0px;
+   padding: 0px;
+   height: 1000px;
+   font-family: 'Lato', sans-serif;
+   background-color: #191a1d;
+ }
+
+p {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+ h1 {
+    font-weight: 350;
+    color: white;
+    font-size: 46px;
+ }
+
+ h2 {
+  font-weight: 400;
+  color: #acacac;
+  font-size: 39px;
+  line-height: 60px;
+ }
+
+

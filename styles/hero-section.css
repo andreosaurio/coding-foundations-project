@@ -1,0 +1,88 @@
+.hero-section {
+    height: 650px;
+    padding: 45px 0px 0px 70px;
+    background-image: linear-gradient(40deg, #24262c, #2c2f36, #24262c, #0b0c0e);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px -51px 76px -8px rgba(0,0,0,0.4);
+    display: grid;
+    grid-template-columns: 2fr 1.75fr;
+    overflow: hidden;
+}
+
+.hero-section > .left-column {
+    margin-right: 30px;
+}
+
+.hero-section > .left-column > .text-wrapper h1 {
+    letter-spacing: 2px;
+}
+
+.text-wrapper h1 > .highlighted-text {
+    font-weight: bold;
+}
+
+.hero-section > .left-column > .text-wrapper h2 {
+    margin-top: -12px;
+}
+
+.hero-section > .left-column > .sign-up-learn-more-btns {
+    margin-top: 50px;
+}
+
+.sign-up-learn-more-btns > .signupfree-link > .signupfree-btn {
+    background-color: #4bce79;
+    font-size: 2.6rem;
+    color: black;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 22px 30px;
+    margin-right: 18px;
+    transition: box-shadow 0.5s;
+ }
+
+.sign-up-learn-more-btns > .signupfree-link > .signupfree-btn:hover {
+    box-shadow: inset 0px 0px 37px 5px rgba(0,0,0,0.3);
+}
+ 
+
+ .sign-up-learn-more-btns > .learnmore-link > .learnmore-btn {
+    background-color: black;
+    font-size: 2.6rem;
+    color: #ffffff;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 22px 33px;
+    transition: background-color 0.5s;
+ }
+
+ .sign-up-learn-more-btns > .learnmore-link > .learnmore-btn:hover {
+    background-color: rgba(0, 0, 0, 0.54);
+ }
+
+ .hero-section > .right-column p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 65px;
+    margin-bottom: 5px;
+ }
+
+.right-column .highlighted-text {
+    color: #78dafd;
+    transition: color 0.3s ease; /* Agregamos una transición para un cambio suave de color */
+}
+
+.right-column .highlighted-text:hover {
+    color: linear-gradient(45deg, #ff7e5f, #feb47b); /* Cambia a un gradiente dinámico en :hover */
+}
+
+ .hero-section > .right-column {
+    display: flex;
+    flex-direction: column;
+ }
+
+.right-column #screenshot {
+    height: 575px;
+    float: right;
+    box-shadow: -35px 0px 35px 4px rgba(0,0,0,0.2);
+}

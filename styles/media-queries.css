@@ -1,0 +1,132 @@
+@media (max-width: 615px) {
+    body {
+        height: auto;
+    }
+
+    .header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .header > .banner-image {
+        margin-right: 0;
+        order: 1;
+    }
+
+    .header > .banner-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .header > .explore-module {
+        flex-direction: column;
+        order: 3;
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .header > .explore-module > .explore p {
+        font-size: 35px;
+        text-align: center;
+    }
+
+
+    .links-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links-wrapper > .nav-link a {
+        margin: 5px 0;
+        padding-right: 0;
+    }
+
+    .links-wrapper > .nav-link,
+    .links-wrapper > .dropdown-sparks {
+        margin-bottom: 10px;
+    }
+
+    .buttons {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        order: 2;
+    }
+
+    .buttons > .create-link > .create-btn,
+    .buttons > .login-link > .login-btn,
+    .buttons > .signup-link > .signup-btn,
+    .buttons > .search-link > .search-btn {
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 18px;
+        padding: 3px 15px;
+        min-height: 40px;
+    }
+
+    .buttons > .create-link > .create-btn i {
+        font-size: 25px;
+    }
+
+    .buttons > .search-link > .search-btn {
+        font-size: 1.5rem;
+    }
+    
+    .signup-btn {
+        margin-left: 8px;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 40px;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-section > .left-column,
+    .hero-section > .right-column {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .hero-section > .left-column > .text-wrapper h1 {
+        font-size: 36px; 
+    }
+
+    .hero-section > .left-column > .text-wrapper h2 {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .sign-up-learn-more-btns > .signupfree-link > .signupfree-btn,
+    .sign-up-learn-more-btns > .learnmore-link > .learnmore-btn {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .hero-section > .right-column p {
+        font-size: 18px;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .right-column #screenshot {
+        height: auto;
+        width: 100%;
+        float: none;
+        box-shadow: none;
+    }
+
+    .features-section > .features-wrapper > .feature {
+        margin-bottom: 15px;
+        margin-top: -30px;
+    }
+
+    .features-section > .features-wrapper > .feature p {
+        font-size: 15px;
+    }
+
+    .feature p > .highlighted-text {
+        font-size: 18px;
+    }
+}
